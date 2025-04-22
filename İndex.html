@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video İndirici</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Youenloaire!</div>
+        <nav>
+            <div class="language-selector">
+                <span class="language-icon">🌐</span>
+                <div class="language-dropdown">
+                    <ul>
+                        <li>Türkçe</li>
+                        <li>English</li>
+                        <li>Español</li>
+                        </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="input-area">
+            <input type="text" id="video-url" placeholder="Video bağlantısını buraya yapıştırın">
+            <button id="search-button">🔍</button>
+        </div>
+
+        <div class="platform-selector">
+            <button class="platform-button active" data-platform="youtube"><img src="img/youtube.png" alt="YouTube"> Inpat</button>
+            <button class="platform-button" data-platform="instagram"><img src="img/instagram.png" alt="Instagram"> Input</button>
+            <button class="platform-button" data-platform="facebook"><img src="img/facebook.png" alt="Facebook"> Olitcom</button>
+            <button class="platform-button" data-platform="tiktok"><img src="img/tiktok.png" alt="TikTok"> Tik Tok</button>
+            <button class="platform-button" data-platform="x"><img src="img/x.png" alt="X"> Victem</button>
+            <button class="platform-button" data-platform="another-tiktok"><img src="img/tiktok.png" alt="TikTok"> Tik Tok</button>
+            <button class="platform-button" data-platform="another-tiktok-2"><img src="img/tiktok.png" alt="TikTok"> Tik Tok</button>
+        </div>
+
+        <button id="download-button" disabled>Download</button>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">Kullanım Şartları</a></li>
+                <li><a href="#">Gizlilik Politikası</a></li>
+            </ul>
+        </nav>
+        <p class="copyright">© 2025 Tüm Hakları Saklıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
